@@ -1,0 +1,29 @@
+<html class="layout-pf layout-pf-fixed">
+    <head>
+        <!-- Adam Jolicoeur styles -->
+        <link rel="icon" type="image/png" href="img/headshot.png">
+        <!-- PatternFly Styles -->
+        <link href="dist/css/patternfly.min.css" rel="stylesheet" media="screen, print">
+        <link href="dist/css/patternfly-additions.min.css" rel="stylesheet" media="screen, print">
+        <link href="dist/css/site.css" rel="stylesheet" media="screen, print">
+        <!-- jQuery -->
+        <script src="dist/js/jquery.min.js"></script>
+        <!-- Bootstrap -->
+        <script src="dist/js/bootstrap.min.js"></script>
+        <!-- PatternFly -->
+        <script src="dist/js/patternfly.min.js"></script>
+        <script src="dist/js/includes.js"></script>
+        <script src="dist/js/site.js"></script>
+    </head>
+    <body>
+        <div id="includeNavigation"></div>
+        <div id="includeFilters"></div>
+        <div id="includeAgileCards"></div>
+    </body>
+    <script>
+        $(window).load(function() {
+            $('.work-active').addClass('active');
+            $('.boards-active').addClass('active');
+        });
+    </script>
+</html>
