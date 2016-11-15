@@ -16,4 +16,4 @@ $(document).ready(function() {
     $(".btn-find-close").click(function () {
     $(".find-pf-dropdown-container").hide();
     });
-})(jQuery);;
+});
