@@ -17,7 +17,7 @@ This repo is for testing UX Designs using HTML and CSS in a static environment.
 
 If you are using MacOS, I recommend using [Homebrew](http://brew.sh) for your package manager. You can download Nodejs v6(LTS) directly from there.
 
-## Installation + Development
+## Installation
 * Step 1:
  - Fork and Clone the repo
 * Step 2:
@@ -36,3 +36,8 @@ If you are using MacOS, I recommend using [Homebrew](http://brew.sh) for your pa
     this will run through all of the initial setup script setups<br />
     <strong>If there are errors with these scripts, please verify that you have NodeJS installed correctly</strong>
   </blockquote>
+
+## Development &amp; Usage
+ By running the default `gulp` command, all of the required library and component pieces will be moved over the the /dist directory. If you wish to build your SASS or JS as well, you can run either `gulp sass` or `gulp js`.
+ 
+ If you wish to run the project in a local environment, you can enter the command `gulp serve`. This will start up a synchronized browser, which will automatically refresh upon any HTML, SASS, or JS change (utilizing the `gulp sass` and `gulp js` commands).
