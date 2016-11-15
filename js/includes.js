@@ -8,7 +8,7 @@ $(function(){
     // Plan View
     $("#includePlanView").load("includes/work/plan-view.html");
 
-    // Agile Card View
+    // Board View
     $("#includeAgileCards").load("includes/work/board-view.html");
 
     $("#includeFooter").load("includes/footer.html");

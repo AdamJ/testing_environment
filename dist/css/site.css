@@ -1,4 +1,7 @@
 /* Site Overrides */
+html, body {
+  height: 100%; }
+
 .subnav.navbar-right {
   margin-right: 15px; }
 
