@@ -21,17 +21,17 @@ If you are using MacOS, I recommend using [Homebrew](http://brew.sh) for your pa
 * Step 1:
  - Fork and Clone the repo
 * Step 2:
- - run 'npm Install'
+ - run `npm Install`
   <blockquote>
     this install the npm modules, which are required for the project to run
   </blockquote>
 * Step 3:
- - run 'bower install'
+ - run `bower install`
   <blockquote>
     this will install the bower components, which are required for the site to render
   </blockquote>
 * Step 4:
- - run 'gulp'
+ - run `gulp`
   <blockquote>
     this will run through all of the initial setup script setups<br />
     <strong>If there are errors with these scripts, please verify that you have NodeJS installed correctly</strong>
