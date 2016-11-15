@@ -1,0 +1,40 @@
+{
+  "name": "portfolio",
+  "version": "3.0.0",
+  "description": "adam's portfolio project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://mindreeper2420@github.com/mindreeper2420/portfolio.git"
+  },
+  "keywords": [
+    "adam",
+    "jolicoeur",
+    "adam",
+    "portfolio",
+    "jolicoeur",
+    "jolicoeur",
+    "portfolio"
+  ],
+  "author": "Adam J. Jolicoeur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mindreeper2420/portfolio/issues"
+  },
+  "homepage": "https://github.com/mindreeper2420/portfolio#readme",
+  "devDependencies": {
+    "browser-sync": "^2.17.6",
+    "browsersync": "0.0.1-security",
+    "gulp": "^3.9.1",
+    "gulp-batch": "^1.0.5",
+    "gulp-notify": "^2.2.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-watch": "^4.3.10"
+  },
+  "dependencies": {
+    "webcomponents.js": "^0.7.23"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "portfolio",
+  "homepage": "http://www.adamjolicoeur.com",
+  "authors": [
+    "Adam Jolicoeur <adam.jolicoeur@gmail.com>"
+  ],
+  "description": "adam's portfolio website",
+  "main": "index.html",
+  "keywords": [
+    "jolicoeur",
+    "adam",
+    "jolicoeur",
+    "portfolio"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "config.codekit"
+  ],
+  "dependencies": {
+    "patternfly": "^3.12.0"
+  }
+}
