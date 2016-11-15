@@ -1,4 +1,4 @@
-# almighty-test
+# Testing Environment
 This repo is for testing UX Designs using HTML and CSS in a static environment.
 
 ### Resources:
