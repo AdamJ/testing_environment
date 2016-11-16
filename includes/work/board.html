@@ -90,13 +90,17 @@
     </div>
 </div>
 <script>
-  $(document).ready(function() {
-    // Card Single Select
-    $('.card-pf-view-single-select').click(function() {
-      if ($(this).hasClass('active'))
-      { $(this).removeClass('active'); }
-      else
-      { $('.card-pf-view-single-select').removeClass('active'); $(this).addClass('active'); }
+    $(document).ready(function() {
+        // Card Single Select
+        $('.card-pf-view-single-select').click(function() {
+        if ($(this).hasClass('active'))
+        { $(this).removeClass('active'); }
+        else
+        { $('.card-pf-view-single-select').removeClass('active'); $(this).addClass('active'); }
+        });
     });
-  });
+    $(window).load(function() {
+        $('.plan-active').removeClass('active');
+        $('.boards-active').addClass('active');
+    });
 </script>

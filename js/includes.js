@@ -6,10 +6,10 @@ $(function(){
     $("#includeDashboard").load("includes/dashboard.html");
 
     // Plan View
-    $("#includePlanView").load("includes/work/plan-view.html");
+    $("#includePlanView").load("includes/work/plan.html");
 
     // Board View
-    $("#includeAgileCards").load("includes/work/board-view.html");
+    $("#includeAgileCards").load("includes/work/board.html");
 
     $("#includeFooter").load("includes/footer.html");
 });
