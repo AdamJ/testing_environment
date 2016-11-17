@@ -1,0 +1,9 @@
+@media (min-width: 768px) {
+    .navbar-pf .navbar-utility {
+        font-size: $font-medium;
+        top: 10px;
+    }
+    .navbar-pf .navbar-utility li.dropdown>.dropdown-toggle .pficon-user {
+        left: 5px;
+    }
+}

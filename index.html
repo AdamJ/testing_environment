@@ -20,7 +20,7 @@
         <!--<script src="dist/js/home.js"></script>-->
     </head>
     <body>
-        <div>
+        <div class="row">
             <nav class="navbar navbar-default navbar-pf" role="navigation">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse-11">
@@ -39,43 +39,35 @@
                                 Organization / BalloonPopGames / Everywhere
                                 <b class="caret"></b>
                             </a>
+                            <i class="fa fa-gear project-settings-icon"></i>
                             <ul class="dropdown-menu org-picker">
                                 <li>
-                                    <a href="#">Project 2</a>
+                                    <a href="#">Organization / Almighty / Focused</a>
                                 </li>
                                 <li>
-                                    <a href="#">Project 3</a>
+                                    <a href="#">Organization / Project / Sub</a>
                                 </li>
                             </ul>
                         </li>
                     </ul>
-                </div>
-                <div class="collapse navbar-collapse navbar-collapse-11">
                     <ul class="nav navbar-nav navbar-utility">
-                    <li>
-                        <a href="#">
-                            <i class="pficon-settings"></i>
-                        </a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                        <span class="pficon pficon-user"></span>
-                        Brian Johnson
-                        <b class="caret"></b>
-                        </a>
-                        <ul class="dropdown-menu">
                         <li>
-                            <a href="#">Link</a>
+                            <a href="#">
+                                <i class="fa fa-comment"></i>
+                                Chat
+                            </a>
                         </li>
                         <li>
-                            <a href="#">Another link</a>
+                            <a href="#">
+                                <i class="fa fa-bell"></i>
+                            </a>
                         </li>
-                        <li>
-                            <a href="#">Something else here</a>
-                        </li>
-                        <li class="divider"></li>
-                        <li class="dropdown-submenu">
-                            <a tabindex="-1" href="#">More options</a>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <span class="pficon pficon-user"></span>
+                            Brian Johnson
+                            <b class="caret"></b>
+                            </a>
                             <ul class="dropdown-menu">
                             <li>
                                 <a href="#">Link</a>
@@ -87,9 +79,28 @@
                                 <a href="#">Something else here</a>
                             </li>
                             <li class="divider"></li>
-                            <li class="dropdown-header">Nav header</li>
-                            <li>
-                                <a href="#">Separated link</a>
+                            <li class="dropdown-submenu">
+                                <a tabindex="-1" href="#">More options</a>
+                                <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#">Link</a>
+                                </li>
+                                <li>
+                                    <a href="#">Another link</a>
+                                </li>
+                                <li>
+                                    <a href="#">Something else here</a>
+                                </li>
+                                <li class="divider"></li>
+                                <li class="dropdown-header">Nav header</li>
+                                <li>
+                                    <a href="#">Separated link</a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <a href="#">One more separated link</a>
+                                </li>
+                                </ul>
                             </li>
                             <li class="divider"></li>
                             <li>
@@ -97,33 +108,15 @@
                             </li>
                             </ul>
                         </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="#">One more separated link</a>
-                        </li>
-                        </ul>
-                    </li>
                     </ul>
+                </div>
+                <div class="collapse navbar-collapse navbar-collapse-11">
                     <ul class="nav navbar-nav navbar-primary persistent-secondary">
                     <li class="home-active active">
                         <a href="index.html">Home</a>
                         <ul class="nav navbar-nav navbar-persistent">
                             <li class="home-places active">
                                 <a href="#">Places</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="work-active">
-                        <a href="work-plan.html">Work</a>
-                        <ul class="nav navbar-nav navbar-persistent">
-                            <li class="plan-active">
-                                <a href="work-plan.html">Plan</a>
-                            </li>
-                            <li class="storymap-active">
-                                <a href="#">Storymap</a>
-                            </li>
-                            <li class="boards-active">
-                                <a href="work-boards.html">Boards</a>
                             </li>
                             <li class="subnav navbar-right">
                                 <a href="#">
@@ -139,10 +132,12 @@
                             <li class="subnav navbar-right">
                                 <a href="#">
                                     <i class="fa fa-search"></i>
-                                    Search
                                 </a>
                             </li>
                         </ul>
+                    </li>
+                    <li class="work-active">
+                        <a href="work-plan.html">Work</a>
                     </li>
                     <li>
                         <a href="#">Code</a>
