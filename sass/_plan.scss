@@ -1,0 +1,37 @@
+.work-plan {
+    position: relative;
+    top: 15px;
+    left: 0;
+    height: 100%;
+}
+.backlog-list {
+    margin-bottom: 0;
+}
+div.dropdown.custom-kebab.dropdown-kebab-pf.open {
+    ul.dropdown-menu {
+        left: -125px;
+        &::before, &::after {
+            left: 115px;
+        }
+    }
+}
+.plan-picker {
+    background-color: #f7f7f7;
+    position: fixed;
+    left: 0;
+    height: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+.panel-group {
+    .panel {
+        border-bottom: 1px solid #dddddd !important;
+    }
+    .panel-default {
+        border: none;
+    }
+    .panel-heading {
+        background-image: none;
+        border-bottom: 1px solid #dddddd;
+    }
+}

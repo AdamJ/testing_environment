@@ -9,36 +9,9 @@
 html, body {
   height: 100%; }
 
-.subnav.navbar-right {
-  margin-right: 15px; }
-
-span.pficon-enterprise.fa-2x {
-  padding-top: 5px; }
-
-.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:active {
-  color: #ffffff;
-  text-decoration: none; }
-
-.navbar-default .navbar-brand .dropdown {
-  /*&:hover {
-            background-image: linear-gradient(to bottom,#434343 0,#303030 100%);
-        }*/ }
-  .navbar-default .navbar-brand .dropdown a.dropdown-toggle {
-    padding-left: 5px; }
-    .navbar-default .navbar-brand .dropdown a.dropdown-toggle:hover, .navbar-default .navbar-brand .dropdown a.dropdown-toggle:focus, .navbar-default .navbar-brand .dropdown a.dropdown-toggle:active {
-      background-image: linear-gradient(to bottom, #434343 0, #303030 100%);
-      text-decoration: none;
-      padding: 24px 0 8px 5px; }
-
 .row {
   margin-right: 0;
   margin-left: 0; }
-
-.work-plan {
-  position: relative;
-  top: 15px;
-  left: 0;
-  height: 100%; }
 
 .project-settings-icon {
   margin-left: 20px; }
@@ -46,36 +19,14 @@ span.pficon-enterprise.fa-2x {
 small {
   font-size: 0.5em; }
 
-.side-panel {
-  height: 100%; }
-  .side-panel .list-group {
-    border: 0; }
-  .side-panel .list-group-item {
-    border: 0;
-    font-size: 2em; }
-    .side-panel .list-group-item:not(:first-child) {
-      border-top: 1px solid #333333; }
+.large {
+  font-size: 1.5em; }
 
-.backlog-list {
-  margin-bottom: 0; }
-
-div.dropdown.custom-kebab.dropdown-kebab-pf.open ul.dropdown-menu {
-  left: -125px; }
-  div.dropdown.custom-kebab.dropdown-kebab-pf.open ul.dropdown-menu::before, div.dropdown.custom-kebab.dropdown-kebab-pf.open ul.dropdown-menu::after {
-    left: 115px; }
+.xlarge {
+  font-size: 2em; }
 
 .user-icon {
   margin-right: 15px; }
-
-.footer-bottom {
-  position: relative;
-  bottom: 0;
-  height: 50px;
-  background-color: #d7d7d7; }
-
-.org-picker {
-  left: 32px;
-  min-width: 325px; }
 
 .alert-info {
   color: #31708f;
@@ -86,3 +37,76 @@ div.dropdown.custom-kebab.dropdown-kebab-pf.open ul.dropdown-menu {
   color: #8a6d3b;
   background-color: #fcf8e3;
   border-color: #faebcc; }
+
+.subnav.navbar-right {
+  margin-right: 15px; }
+
+span.pficon-enterprise.fa-2x {
+  padding-top: 5px; }
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:active {
+  color: #ffffff;
+  text-decoration: none; }
+
+.navbar-default .navbar-brand .dropdown a.dropdown-toggle {
+  padding-left: 5px; }
+  .navbar-default .navbar-brand .dropdown a.dropdown-toggle:hover, .navbar-default .navbar-brand .dropdown a.dropdown-toggle:focus, .navbar-default .navbar-brand .dropdown a.dropdown-toggle:active {
+    background-image: linear-gradient(to bottom, #434343 0, #303030 100%);
+    text-decoration: none;
+    padding: 24px 0 8px 5px; }
+
+.org-picker {
+  left: 32px;
+  min-width: 325px; }
+
+.footer-bottom {
+  height: 75px;
+  background-color: #d7d7d7;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10; }
+
+.add-work-item {
+  margin-top: 25px; }
+  .add-work-item span:first-of-type {
+    margin-left: 20px; }
+  .add-work-item span:last-child {
+    margin-left: 100px; }
+  .add-work-item a, .add-work-item a:hover, .add-work-item a:focus, .add-work-item a:active {
+    color: #1d1d1d;
+    text-decoration: none; }
+
+/* Planner */
+.work-plan {
+  position: relative;
+  top: 15px;
+  left: 0;
+  height: 100%; }
+
+.backlog-list {
+  margin-bottom: 0; }
+
+div.dropdown.custom-kebab.dropdown-kebab-pf.open ul.dropdown-menu {
+  left: -125px; }
+  div.dropdown.custom-kebab.dropdown-kebab-pf.open ul.dropdown-menu::before, div.dropdown.custom-kebab.dropdown-kebab-pf.open ul.dropdown-menu::after {
+    left: 115px; }
+
+.plan-picker {
+  background-color: #f7f7f7;
+  position: fixed;
+  left: 0;
+  height: 100%;
+  padding-left: 0;
+  padding-right: 0; }
+
+.panel-group .panel {
+  border-bottom: 1px solid #dddddd !important; }
+
+.panel-group .panel-default {
+  border: none; }
+
+.panel-group .panel-heading {
+  background-image: none;
+  border-bottom: 1px solid #dddddd; }

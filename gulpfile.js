@@ -24,7 +24,7 @@ gulp.task('copyJS', function() {
         'bower_components/patternfly/dist/js/patternfly.min.js',
         'bower_components/bootstrap/dist/js/bootstrap.min.js',
         'bower_components/jquery/dist/jquery.min.js',
-        'node_modules/webcomponents.js/webcomponents.min.js',
+        'bower_components/webcomponentsjs/HTMLImports.min.js',
         'js/nav.js'
     ])
         .pipe(gulp.dest('dist/js/'));

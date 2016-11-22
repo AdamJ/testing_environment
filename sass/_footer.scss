@@ -1,0 +1,26 @@
+.footer-bottom {
+    height: 75px;
+    background-color: #d7d7d7;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+.add-work-item {
+    margin-top: 25px;
+    //text-align: center;
+    span {
+        //display: block;
+        &:first-of-type {
+            margin-left: 20px;
+        }
+        &:last-child {
+            margin-left: 100px;
+        }
+    }
+    a, a:hover, a:focus, a:active {
+        color: $pf-black;
+        text-decoration: none;
+    }
+}

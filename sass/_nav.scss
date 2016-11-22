@@ -1,0 +1,26 @@
+.subnav.navbar-right {
+    margin-right: 15px;
+}
+span.pficon-enterprise.fa-2x {
+    padding-top: 5px;
+}
+.navbar-default .navbar-brand {
+    &:hover, &:focus, &:active {
+        color: $white;
+        text-decoration: none;
+    }
+    .dropdown {
+        a.dropdown-toggle {
+            padding-left: 5px;
+            &:hover, &:focus, &:active {
+                background-image: linear-gradient(to bottom,#434343 0,#303030 100%);
+                text-decoration: none;
+                padding: 24px 0 8px 5px;
+            }
+        }
+    }
+}
+.org-picker {
+    left: 32px;
+    min-width: 325px;
+}
