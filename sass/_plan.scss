@@ -1,3 +1,10 @@
+#includeIterations {
+    /*position: relative;*/
+    /*left: 0;
+    top: 200px;*/
+    padding-left: 0;
+    padding-right: 0;
+}
 .work-plan {
     position: relative;
     top: 15px;
@@ -17,8 +24,8 @@ div.dropdown.custom-kebab.dropdown-kebab-pf.open {
 }
 .plan-picker {
     background-color: #f7f7f7;
-    position: fixed;
-    left: 0;
+    /*position: fixed;
+    left: 0;*/
     height: 100%;
     padding-left: 0;
     padding-right: 0;
