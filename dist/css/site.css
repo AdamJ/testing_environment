@@ -1,6 +1,15 @@
+@font-face {
+  font-family: "FontAwesome";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/FontAwesome.otf");
+  src: url("../fonts/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff") format("woff"), url("../fonts/fontawesome-webfont.ttf") format("truetype"), url("../fonts/fontawesome-webfont.svg#OpenSansBold") format("svg"); }
+
+/* Colors */
+/* Font Sizes */
 @media (min-width: 768px) {
   .navbar-pf .navbar-utility {
-    font-size: 1em;
+    font-size: 0.75em;
     top: 10px; }
   .navbar-pf .navbar-utility li.dropdown > .dropdown-toggle .pficon-user {
     left: 5px; } }
@@ -27,6 +36,18 @@ small {
 
 .user-icon {
   margin-right: 15px; }
+
+.navbar-pf {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  width: 100%; }
+
+section {
+  height: 100vh;
+  padding-top: 120px;
+  position: relative; }
 
 .alert-info {
   color: #31708f;
@@ -80,11 +101,15 @@ span.pficon-enterprise.fa-2x {
 
 /* Planner */
 #includeIterations {
-  /*position: relative;*/
-  /*left: 0;
+  /*position: fixed;
+    left: 0;
     top: 200px;*/
   padding-left: 0;
   padding-right: 0; }
+
+#includePlanView {
+  float: right;
+  overflow: scroll; }
 
 .work-plan {
   position: relative;
@@ -117,3 +142,81 @@ div.dropdown.custom-kebab.dropdown-kebab-pf.open ul.dropdown-menu {
 .panel-group .panel-heading {
   background-image: none;
   border-bottom: 1px solid #dddddd; }
+
+.plan-active:before {
+  content: "\f140";
+  font-family: FontAwesome; }
+
+.ug-menuButtonDesk {
+  min-width: 100px; }
+
+.trigger--menu {
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  -webkit-transition: all 180ms ease;
+  -moz-transition: all 180ms ease;
+  -o-transition: all 180ms ease;
+  -ms-transition: all 180ms ease;
+  transition: all 180ms ease;
+  /*padding: 10px;*/
+  will-change: transform;
+  /*left: 0;*/
+  color: #0088ce; }
+  .trigger--menu:hover {
+    text-decoration: underline; }
+
+.ug-headerContainer {
+  position: fixed;
+  background-color: #030303;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 5px #d7d7d7;
+  /*width: 100px;*/
+  height: 100%;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  transition: all 200ms ease;
+  cursor: pointer;
+  -webkit-transform: translateX(-60px);
+  -moz-transform: translateX(-60px);
+  -ms-transform: translateX(-60px);
+  -o-transform: translateX(-60px);
+  transform: translateX(-60px);
+  will-change: transform;
+  left: -75px;
+  top: 130px;
+  z-index: 20; }
+
+.active--menu .ug-headerContainer {
+  width: 400px;
+  left: 0;
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  transform: translateX(0); }
+
+.trigger--menu:active, .trigger--menu:focus {
+  outline: none;
+  border: none; }
+
+.ug-headerItem {
+  padding: 20px;
+  font-size: 1.5em;
+  will-change: transform; }
+  .ug-headerItem:hover {
+    background: #e36121;
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
+    -ms-transition: all 400ms ease;
+    transition: all 400ms ease; }
+  .ug-headerItem .back-button {
+    font-size: 0.75em; }
+
+.agile-board-header div {
+  font-size: 2em;
+  text-align: center; }

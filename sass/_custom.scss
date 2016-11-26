@@ -20,3 +20,15 @@ small {
 .user-icon {
     margin-right: 15px;
 }
+.navbar-pf {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    width: 100%;
+}
+section {
+    height: 100vh;
+    padding-top: 120px;
+    position: relative;
+}

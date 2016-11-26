@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="utf-8">
         <meta name="description" content="Test site for UXD">
         <meta name="author" content="Adam J. Jolicoeur">
         <!-- Adam Jolicoeur styles -->
@@ -118,7 +119,71 @@
                     </li>
                     <li class="work-active active">
                         <a href="work-plan.html">Work</a>
-                        <ul class="nav navbar-nav navbar-persistent">
+                            <ul class="nav navbar-nav navbar-persistent">
+                                <li class="ug-menuButtonDesk">
+                                    <button class="trigger--menu">
+                                        Places <i class="fa fa-angle-double-right"></i>
+                                    </button>
+                                    <div class="ug-headerContainer">
+                                        <a href="#" target="_blank">
+                                            <div class="ug-headerItem">
+                                                <div class="back-button">
+                                                    <i class="fa fa-arrow-left"></i> Back
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="work-plan.html">
+                                            <div class="ug-headerItem">
+                                                <div class="plan-active active">
+                                                    Plan
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="#" target="_blank">
+                                            <div class="ug-headerItem">
+                                                <div class="storymap-active">
+                                                    Storymap
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="work-boards.html">
+                                            <div class="ug-headerItem">
+                                                <div class="boards-active">
+                                                    Boards
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="#" target="_blank">
+                                            <div class="ug-headerItem">
+                                                <div class=""></div>
+                                            </div>
+                                        </a>
+                                        <a href="#" target="_blank">
+                                            <div class="ug-headerItem">
+                                                <div class=""></div>
+                                            </div>
+                                        </a>    
+                                    </div>
+                                    <!--<a href="work-plan.html">Plan</a>-->
+                                </li>
+                                <li class="subnav navbar-right">
+                                    <a href="#">
+                                        <i class="fa fa-cogs"></i>
+                                    </a>
+                                </li>
+                                <li class="subnav navbar-right">
+                                    <a href="#">
+                                        <i class="fa fa-plus"></i>
+                                        New    
+                                    </a>
+                                </li>
+                                <li class="subnav navbar-right">
+                                    <a href="#">
+                                        <i class="fa fa-search"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        <!--<ul class="nav navbar-nav navbar-persistent">
                             <li class="plan-active active">
                                 <a href="work-plan.html">Plan</a>
                             </li>
@@ -144,7 +209,7 @@
                                     <i class="fa fa-search"></i>
                                 </a>
                             </li>
-                        </ul>
+                        </ul>-->
                     </li>
                     <li>
                         <a href="#">Code</a>
@@ -162,12 +227,14 @@
                 </div>
             </nav>
         </div>
-        <div id="includeFilters"></div>
-        <div id="includeWarning"></div>
-        <div class="row">
-            <div id="includeIterations" class="col-md-3"></div>
-            <div id="includePlanView" class="col-md-9"></div>
-        </div>
-        <div id="includeAddFooter" class="footer-bottom col-md-9 col-md-offset-3"></div>
+        <section>
+            <div id="includeFilters"></div>
+            <div id="includeWarning"></div>
+            <div class="row">
+                <div id="includeIterations" class="col-md-3"></div>
+                <div id="includePlanView" class="col-md-9"></div>
+            </div>
+        </section>
+        <footer id="includeAddFooter" class="footer-bottom col-md-9 col-md-offset-3"></footer>
     </body>
 </html>

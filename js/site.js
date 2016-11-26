@@ -18,4 +18,16 @@ $(function() {
         $(".find-pf-dropdown-container").hide();
         });
     });
+    /*Menu and Search triggers*/
+    $('.trigger--menu').click(function () {
+        $('.ug-menuButtonDesk').toggleClass('active--menu');
+        $('.trigger--menu').toggleClass('button-translate');
+    });
+    // Close search when click target is something else
+    $(document).on('click', function (event) {
+        if (!$(event.target).closest('.ug-menuButtonDesk').length) {
+            $('.ug-menuButtonDesk').removeClass('active--menu');
+            $('.trigger--menu').removeClass('button-translate');
+        }
+    });
 });
