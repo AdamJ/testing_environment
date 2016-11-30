@@ -28,8 +28,6 @@ div.dropdown.custom-kebab.dropdown-kebab-pf.open {
 }
 .plan-picker {
     background-color: #f7f7f7;
-    /*position: fixed;
-    left: 0;*/
     height: 100%;
     padding-left: 0;
     padding-right: 0;
@@ -47,7 +45,6 @@ div.dropdown.custom-kebab.dropdown-kebab-pf.open {
     }
 }
 .plan-active {
-    //background: #ffffff;
     &:before {
         content: "\f140";
         font-family: FontAwesome;

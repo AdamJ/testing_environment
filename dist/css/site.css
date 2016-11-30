@@ -7,7 +7,7 @@
 
 /* Colors */
 /* Font Sizes */
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .navbar-pf .navbar-utility {
     font-size: 0.75em;
     top: 10px; }
@@ -127,8 +127,6 @@ div.dropdown.custom-kebab.dropdown-kebab-pf.open ul.dropdown-menu {
 
 .plan-picker {
   background-color: #f7f7f7;
-  /*position: fixed;
-    left: 0;*/
   height: 100%;
   padding-left: 0;
   padding-right: 0; }
