@@ -1,18 +1,16 @@
 <!-- Iteration Picker -->
-<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+<div class="panel-group iteration-picker col-md-3" id="accordion" role="tablist" aria-multiselectable="true" data-spy="affix" data-offset-top="130">
     <div class="plan-picker">
         <div class="panel panel-default">
             <div class="panel-heading" role="tab" id="headingOne" style="min-height: 50px;">
                 <h4 class="panel-title">
-                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne" style="">
+                    <a class="collapsed remove-link-styles" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                         Backlog
-                        <span class="status-number pull-right" style="text-align: center;">
-                            <span>
-                                7
-                            </span>
-                            <span style="display: block;">
-                                <small>Items</small>
-                            </span>
+                        <ul class="status-number pull-right">
+                            <li>
+                                <large>7</large>
+                                <small style="display: block;">Items</small>
+                            </li>
                         </span>
                     </a>
                 </h4>
@@ -81,3 +79,10 @@
         </div>
     </div>
 </div>
+<script>
+    // $('.iteration-picker').affix({
+    //     offset: {
+    //         top: 130,
+    //     }
+    // });
+</script>

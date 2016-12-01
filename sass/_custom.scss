@@ -11,6 +11,9 @@ html, body {
 small {
     font-size: $font-small;
 }
+large {
+    font-size: $font-large;
+}
 .large {
     font-size: $font-large;
 }
@@ -31,4 +34,10 @@ section {
     height: 100vh;
     padding-top: 120px;
     position: relative;
+}
+.remove-link-styles {
+    color: $pf-black;
+    &:hover {
+        text-decoration: none;
+    }
 }

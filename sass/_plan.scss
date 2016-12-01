@@ -1,7 +1,4 @@
 #includeIterations {
-    /*position: fixed;
-    left: 0;
-    top: 200px;*/
     padding-left: 0;
     padding-right: 0;
 }
@@ -31,6 +28,17 @@ div.dropdown.custom-kebab.dropdown-kebab-pf.open {
     height: 100%;
     padding-left: 0;
     padding-right: 0;
+    .panel-heading {
+        .panel-title {
+            min-height: 50px;
+            line-height: 4;
+            .status-number {
+                list-style: none;
+                line-height: 2;
+                text-align: center;
+            }
+        }
+    }
 }
 .panel-group {
     .panel {
@@ -73,10 +81,8 @@ div.dropdown.custom-kebab.dropdown-kebab-pf.open {
 .ug-headerContainer {
     position: fixed;
     background-color: #030303;
-    background-color: #ffffff;
+    background-color: $white;
     box-shadow: 0px 2px 5px #d7d7d7;
-    /*width: 100px;*/
-    //display: none;
     height: 100%;
     -webkit-transition: all 200ms ease;
     -moz-transition: all 200ms ease;
