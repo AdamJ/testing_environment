@@ -1,0 +1,10 @@
+{
+    "paths": {
+        "source": {
+            "root": "./source/",
+            "js": "./source/js",
+            "css": "./source/css",
+            "sass": "./sass"
+        }
+    }
+}

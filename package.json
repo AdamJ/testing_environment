@@ -1,40 +1,33 @@
 {
-  "name": "portfolio",
+  "name": "testingenvironment",
   "version": "3.0.0",
-  "description": "adam's portfolio project",
-  "main": "index.js",
+  "description": "ux test environment",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://mindreeper2420@github.com/mindreeper2420/portfolio.git"
+    "url": "git+https://mindreeper2420@github.com/mindreeper2420/testing_environment.git"
   },
   "keywords": [
-    "adam",
-    "jolicoeur",
-    "adam",
-    "portfolio",
-    "jolicoeur",
-    "jolicoeur",
-    "portfolio"
   ],
   "author": "Adam J. Jolicoeur",
-  "license": "ISC",
+  "license": "Apache License 2.0",
   "bugs": {
-    "url": "https://github.com/mindreeper2420/portfolio/issues"
+    "url": "https://github.com/mindreeper2420/testing_environment/issues"
   },
-  "homepage": "https://github.com/mindreeper2420/portfolio#readme",
-  "devDependencies": {
+  "homepage": "https://github.com/mindreeper2420/testing_environment#readme",
+  "dependencies": {
     "browser-sync": "^2.17.6",
     "browsersync": "0.0.1-security",
     "gulp": "^3.9.1",
     "gulp-batch": "^1.0.5",
     "gulp-notify": "^2.2.0",
-    "gulp-sass": "^2.3.2",
-    "gulp-watch": "^4.3.10"
-  },
-  "dependencies": {
+    "gulp-watch": "^4.3.10",
     "webcomponents.js": "^0.7.23"
+  },
+  "devDependencies": {
+    "gulp-sass": "^2.3.2"
   }
 }
