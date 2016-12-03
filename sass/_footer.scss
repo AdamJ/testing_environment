@@ -1,6 +1,6 @@
 .footer-bottom {
     height: 75px;
-    background-color: #d7d7d7;
+    background-color: $color-pf-black-300;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -20,7 +20,7 @@
         }
     }
     a, a:hover, a:focus, a:active {
-        color: $pf-black;
+        color: $color-pf-black;
         text-decoration: none;
     }
 }

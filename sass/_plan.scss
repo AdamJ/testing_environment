@@ -24,7 +24,7 @@ div.dropdown.custom-kebab.dropdown-kebab-pf.open {
     }
 }
 .plan-picker {
-    background-color: #f7f7f7;
+    background-color: $color-pf-black-150;
     height: 100%;
     padding-left: 0;
     padding-right: 0;
@@ -42,14 +42,14 @@ div.dropdown.custom-kebab.dropdown-kebab-pf.open {
 }
 .panel-group {
     .panel {
-        border-bottom: 1px solid #dddddd !important;
+        border-bottom: 1px solid $color-pf-black-300 !important;
     }
     .panel-default {
         border: none;
     }
     .panel-heading {
         background-image: none;
-        border-bottom: 1px solid #dddddd;
+        border-bottom: 1px solid $color-pf-black-300;
     }
 }
 .plan-active {
@@ -73,16 +73,16 @@ div.dropdown.custom-kebab.dropdown-kebab-pf.open {
     transition: all 180ms ease;
     padding: 9px 28px !important;
     will-change: transform;
-    color: $pf-blue;
+    color: $color-pf-blue;
     &:hover {
         text-decoration: underline;
     }
 }
 .ug-headerContainer {
     position: fixed;
-    background-color: #030303;
-    background-color: $white;
-    box-shadow: 0px 2px 5px #d7d7d7;
+    background-color: $color-pf-black-900;
+    background-color: $color-pf-white;
+    box-shadow: 0px 2px 5px $color-pf-black-300;
     height: 100%;
     -webkit-transition: all 200ms ease;
     -moz-transition: all 200ms ease;
@@ -102,7 +102,6 @@ div.dropdown.custom-kebab.dropdown-kebab-pf.open {
 }
 .active--menu {
     .ug-headerContainer {
-        //display: block;
         width: 400px;
         left: 0;
         -webkit-transform: translateX(0);
@@ -131,12 +130,13 @@ div.dropdown.custom-kebab.dropdown-kebab-pf.open {
     font-size: $font-large;
     will-change: transform;
     &:hover {
-        background: #e36121;
+        background: $color-pf-light-blue-400;
         -webkit-transition: all 400ms ease;
         -moz-transition: all 400ms ease;
         -o-transition: all 400ms ease;
         -ms-transition: all 400ms ease;
         transition: all 400ms ease;
+        color: $color-pf-white;
     }
     .back-button {
         font-size: $font-medium;
