@@ -23,6 +23,12 @@ div.dropdown.custom-kebab.dropdown-kebab-pf.open {
         }
     }
 }
+@media (min-width: 768px) {
+    .list-view-pf-body {
+        display: inline-flex;
+    }
+}
+
 .plan-picker {
     background-color: $color-pf-black-150;
     height: 100%;
