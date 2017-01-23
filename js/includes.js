@@ -17,4 +17,12 @@ $(function(){
     $("#includeFooter").load("includes/footer.html");
 
     $("#includeWarning").load("includes/warning.html");
+
+    // Codebases
+    $("#includeCodebase").load("includes/create/codebase.html");
+    // Workspaces
+    $("#includeWorkspace").load("includes/create/workspace.html");
+
+    // Toolbar
+    $("#includeToolbar").load("includes/toolbar.html");
 });

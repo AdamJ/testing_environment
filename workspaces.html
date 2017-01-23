@@ -117,11 +117,14 @@
                     <li class="home-active">
                         <a href="index.html">Home</a>
                     </li>
-                    <li class="work-active active">
+                    <li>
                         <a href="work-plan.html">Work</a>
+                    </li>
+                    <li class="work-active active">
+                        <a href="codebases.html">Create</a>
                         <ul class="nav navbar-nav navbar-persistent">
-                            <li class="home-places active ug-menuButtonDesk">
-                                <a href="#" class="trigger--menu">Places</a>
+                            <li class="home-places ug-menuButtonDesk">
+                                <a href="#" class="trigger--menu">Overview</a>
                                 <div class="ug-headerContainer">
                                     <a href="#" target="_blank">
                                         <div class="ug-headerItem">
@@ -163,6 +166,12 @@
                                     </a>    
                                 </div>
                             </li>
+                            <li class="home-codebases">
+                                <a href="codebases.html">Codebases</a>
+                            </li>
+                            <li class="home-codebases active">
+                                <a href="workspaces.html">Workspaces</a>
+                            </li>
                             <li class="subnav navbar-right">
                                 <a href="#">
                                     <i class="fa fa-cogs"></i>
@@ -174,15 +183,7 @@
                                     New    
                                 </a>
                             </li>
-                            <li class="subnav navbar-right">
-                                <a href="#">
-                                    <i class="fa fa-search"></i>
-                                </a>
-                            </li>
                         </ul>
-                    </li>
-                    <li>
-                        <a href="codebases.html">Code</a>
                     </li>
                     <li>
                         <a href="#">Test</a>
@@ -198,13 +199,10 @@
             </nav>
         </div>
         <section>
-            <div id="includeFilters"></div>
-            <div id="includeWarning"></div>
             <div class="row">
-                <div id="includeIterations"></div>
-                <div id="includePlanView" class="col-sm-12 col-md-9"></div>
+                <div id="includeToolbar" class="col-sm-12 col-md-12"></div>
+                <div id="includeWorkspace" class="col-sm-12 col-md-12"></div>
             </div>
         </section>
-        <footer id="includeAddFooter" class="footer-bottom col-md-9 col-md-offset-3"></footer>
     </body>
 </html>
