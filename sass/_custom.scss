@@ -41,3 +41,19 @@ section {
         text-decoration: none;
     }
 }
+.detail-panel {
+  background-color: $color-pf-white;
+  box-shadow: -5px 0px 2px $color-pf-black-300;
+  height: 100%;
+  position: fixed;
+  top: 133px;
+  right: 0;
+  z-index: 100;
+}
+.title, .description {
+  border-color: transparent;
+  box-shadow: none;
+  &:hover {
+    border-color: $color-pf-blue-200;
+  }
+}

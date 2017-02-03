@@ -1,6 +1,6 @@
 $(function(){
     $("#includeNavigation").load("includes/nav.html");
-    $("#includeFilters").load("includes/filters.html"); 
+    $("#includeFilters").load("includes/filters.html");
 
     // Dashboard
     $("#includeDashboard").load("includes/dashboard.html");
@@ -8,6 +8,7 @@ $(function(){
     // Plan View
     $("#includeIterations").load("includes/work/iterations.html");
     $("#includePlanView").load("includes/work/plan.html");
+    $("#includeDetailPanel").load("includes/work/detail-panel.html");
 
     // Board View
     $("#includeAgileCards").load("includes/work/board.html");

@@ -59,6 +59,21 @@ section {
   .remove-link-styles:hover {
     text-decoration: none; }
 
+.detail-panel {
+  background-color: #fff;
+  box-shadow: -5px 0px 2px #d1d1d1;
+  height: 100%;
+  position: fixed;
+  top: 133px;
+  right: 0;
+  z-index: 100; }
+
+.title, .description {
+  border-color: transparent;
+  box-shadow: none; }
+  .title:hover, .description:hover {
+    border-color: #7dc3e8; }
+
 .alert-info {
   color: #31708f;
   background-color: #d9edf7;
@@ -116,7 +131,8 @@ span.pficon-enterprise.fa-2x {
 
 #includePlanView {
   float: right;
-  overflow: scroll; }
+  overflow: scroll;
+  padding-left: 0; }
 
 .work-plan {
   position: relative;
