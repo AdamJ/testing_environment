@@ -67,6 +67,12 @@ section {
   top: 133px;
   right: 0;
   z-index: 100; }
+  .detail-panel .show {
+    right: 0;
+    z-index: 100;
+    display: block; }
+  .detail-panel .hide {
+    display: none; }
 
 .title, .description {
   border-color: transparent;

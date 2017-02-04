@@ -49,6 +49,14 @@ section {
   top: 133px;
   right: 0;
   z-index: 100;
+  .show {
+    right: 0;
+    z-index: 100;
+    display: block;
+  }
+  .hide {
+    display: none;
+  }
 }
 .title, .description {
   border-color: transparent;

@@ -1,4 +1,4 @@
-<div class="col-md-6 col-sm-12 container-fluid detail-panel">
+<div class="col-md-6 col-sm-12 container-fluid detail-panel hide">
   <div class="row">
     <div class="col-md-1">
       <i class="fa fa-bookmark"></i>
@@ -12,7 +12,7 @@
       </span>
     </div>
     <div class="col-md-1">
-      <i class="fa fa-remove"></i>
+      <i id="closeRow" class="fa fa-remove"></i>
     </div>
   </div>
   <div class="row">
@@ -66,3 +66,8 @@
     </div>
   </div>
 </div>
+<script>
+  $("#closeRow").click(function(){
+      $(".detail-panel").removeClass("show");
+  });
+</script>

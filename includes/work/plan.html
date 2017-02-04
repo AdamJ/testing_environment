@@ -6,7 +6,7 @@
                     <!--<div class="list-view-pf-checkbox">
                         <input type="checkbox">
                     </div>-->
-                    <div class="list-view-pf-main-info">
+                    <div class="list-view-pf-main-info open-row">
                         <div class="list-view-pf-left">
                             <span class="fa fa-circle-thin"></span>
                         </div>
@@ -61,7 +61,7 @@
                     <!--<div class="list-view-pf-checkbox">
                         <input type="checkbox">
                     </div>-->
-                    <div class="list-view-pf-main-info">
+                    <div class="list-view-pf-main-info open-row">
                         <div class="list-view-pf-left">
                             <span class="fa fa-circle-thin"></span>
                         </div>
@@ -116,7 +116,7 @@
                     <!--<div class="list-view-pf-checkbox">
                         <input type="checkbox">
                     </div>-->
-                    <div class="list-view-pf-main-info">
+                    <div class="list-view-pf-main-info open-row">
                         <div class="list-view-pf-left">
                             <span class="fa fa-circle-thin"></span>
                         </div>
@@ -171,7 +171,7 @@
                     <!--<div class="list-view-pf-checkbox">
                         <input type="checkbox">
                     </div>-->
-                    <div class="list-view-pf-main-info">
+                    <div class="list-view-pf-main-info open-row">
                         <div class="list-view-pf-left">
                             <span class="fa fa-circle-thin"></span>
                         </div>
@@ -226,7 +226,7 @@
                     <!--<div class="list-view-pf-checkbox">
                         <input type="checkbox">
                     </div>-->
-                    <div class="list-view-pf-main-info">
+                    <div class="list-view-pf-main-info open-row">
                         <div class="list-view-pf-left">
                             <span class="fa fa-circle-thin"></span>
                         </div>
@@ -281,7 +281,7 @@
                     <!--<div class="list-view-pf-checkbox">
                         <input type="checkbox">
                     </div>-->
-                    <div class="list-view-pf-main-info">
+                    <div class="list-view-pf-main-info open-row">
                         <div class="list-view-pf-left">
                             <span class="fa fa-circle-thin"></span>
                         </div>
@@ -331,7 +331,7 @@
     </div>
     <div class="row">
         <div>
-            <div class="list-group backlog-list list-view-pf">
+            <div class="list-group backlog-list list-view-pf open-row">
                 <div class="list-group-item">
                     <!--<div class="list-view-pf-checkbox">
                         <input type="checkbox">
@@ -386,7 +386,7 @@
     </div>
     <div class="row">
         <div>
-            <div class="list-group backlog-list list-view-pf">
+            <div class="list-group backlog-list list-view-pf open-row">
                 <div class="list-group-item">
                     <!--<div class="list-view-pf-checkbox">
                         <input type="checkbox">
@@ -441,7 +441,7 @@
     </div>
     <div class="row">
         <div>
-            <div class="list-group backlog-list list-view-pf">
+            <div class="list-group backlog-list list-view-pf open-row">
                 <div class="list-group-item">
                     <!--<div class="list-view-pf-checkbox">
                         <input type="checkbox">
@@ -510,3 +510,8 @@
         </div>
     </div>
 <!-- /List Content -->
+<script>
+  $(".open-row").click(function(){
+      $(".detail-panel").addClass("show");
+  });
+</script>
